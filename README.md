@@ -25,9 +25,7 @@ This project was developed as the final practical deliverable for the **Data Vis
 
 ## Live Dashboard
 
-The interactive dashboard is published and viewable live via GitHub Pages:
-
-**[Launch Live Interactive Dashboard](https://roalamghamdi.github.io/logistics-operations-dashboard-/logistics_dashboard.html)**
+**[View Dashboard](https://roalamghamdi.github.io/logistics-operations-dashboard-/logistics_dashboard.html)**
 
 ---
 
