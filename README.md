@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Dashboard-green)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![SDAIA Academy](https://img.shields.io/badge/SDAIA%20Academy-Data%20Science-purple)
 
 ---
 
@@ -12,7 +13,7 @@ This project presents an interactive executive dashboard designed to monitor and
 
 The dashboard evaluates key operational performance indicators, identifies potential performance risks, and supports data-driven decision-making through interactive data visualization.
 
-This project was developed as the final practical deliverable for the **Data Visualization & Storytelling Course** at **SDAIA Academy (Saudi Data & AI Authority)**.
+This project was developed as the final practical deliverable for the **Data Visualization & Storytelling Course** at [@SDAIAAcademy](https://github.com/SDAIAAcademy).
 
 ---
 
@@ -22,38 +23,30 @@ This project was developed as the final practical deliverable for the **Data Vis
 
 ---
 
-## Live Dashboard
-
-The interactive dashboard is available through GitHub Pages:
-
-https://RolaMAlghamdi.github.io/logistics-operations-dashboard-/logistics_dashboard.html
-
----
-
 ## Key Outputs & Deliverables
 
 ### Interactive Executive Dashboard (`logistics_dashboard.html`)
 
 - Developed using Python and Plotly.
-- Provides interactive filtering and hover-based insights.
+- Provides interactive filtering, zooming, and hover-based insights.
 - Presents executive-level operational KPIs.
 
 ### Executive KPIs
 
-- On-Time Delivery Rate: 88.9%
-- Total Deliveries: 1.59M
-- Average Delivery Duration: 37.1 minutes
-- Customer Rating: 4.07
+- **On-Time Delivery Rate:** 88.9%
+- **Total Deliveries:** 1.59M
+- **Average Delivery Duration:** 37.1 minutes
+- **Customer Rating:** 4.07 / 5.00
 
 ### Analytical Views
 
 The dashboard includes:
 
-- Hub Risk Status Analysis
-- Monthly Performance Trend
-- Vehicle Type Performance Comparison
-- Delivery Volume Analysis
-- Fuel Expenditure Analysis
+- **Hub Risk Status Analysis:** Evaluates 5 regional hubs against an 85% SLA benchmark.
+- **Monthly Performance Trend:** Tracks 12-month delivery performance variations.
+- **Vehicle Type Performance Comparison:** Evaluates duration efficiency across Motorbikes, Vans, and Trucks.
+- **Delivery Volume Analysis:** Identifies high-density delivery hubs.
+- **Fuel Expenditure Analysis:** Analyzes operational fuel costs by vehicle type.
 
 ---
 
@@ -61,51 +54,48 @@ The dashboard includes:
 
 ### `logistics_analysis.ipynb`
 
-The notebook includes:
+The Jupyter Notebook details the complete end-to-end data pipeline:
 
-- Data cleaning and preprocessing.
-- KPI calculation.
-- Data analysis.
-- Interactive visualization development using Plotly.
+- Data cleaning, normalization, and preprocessing.
+- Metric aggregations and KPI calculations.
+- Statistical data analysis.
+- Interactive visualization logic using Plotly.
 
 ---
 
 ## Business Impact
 
-This dashboard supports logistics decision-making by enabling users to:
+This dashboard supports strategic decision-making in supply chain operations by enabling executives to:
 
-- Monitor operational performance through key metrics.
-- Identify underperforming logistics hubs.
-- Evaluate fleet efficiency.
-- Analyze delivery trends over time.
-- Identify opportunities for operational improvement.
+- Monitor overall operational performance through key metrics.
+- Pinpoint underperforming logistics hubs needing operational intervention (e.g., Makkah Hub).
+- Evaluate fleet efficiency and optimize route planning.
+- Analyze seasonal trends (e.g., performance dips in May) for proactive resource allocation.
+- Drive cost-reduction strategies regarding fuel expenses.
 
 ---
 
 ## Technologies Used
 
-- Python
-- Plotly
-- Pandas
-- NumPy
-- Google Colab
-- Jupyter Notebook
-- GitHub
-- GitHub Pages
+- **Programming Language:** Python 3.11
+- **Visualization:** Plotly, HTML/CSS
+- **Data Manipulation:** Pandas, NumPy
+- **Environment:** Google Colab, Jupyter Notebook
+- **Deployment & Version Control:** Git, GitHub, GitHub Pages
 
 ---
 
 ## Dataset Description
 
-The dataset includes logistics operational data covering:
+The dataset includes 12 months of operational logistics data covering:
 
 - Delivery Date
-- Distribution Hub
-- Vehicle Type
+- Distribution Hub (Riyadh, Jeddah, Makkah, Dammam, Madinah)
+- Vehicle Type (Motorbike, Van, Truck)
 - Number of Deliveries
 - On-Time Delivery Percentage
 - Average Delivery Duration
-- Fuel Cost
+- Fuel Cost (SAR)
 - Customer Rating
 
 ---
@@ -113,7 +103,7 @@ The dataset includes logistics operational data covering:
 ## Project Structure
 
 ```text
-Saudi-Logistics-Operations-Dashboard/
+logistics-operations-dashboard-/
 │
 ├── logistics_analysis.ipynb
 ├── logistics_dashboard.html
@@ -127,25 +117,25 @@ Saudi-Logistics-Operations-Dashboard/
 
 ## How to Run
 
-1. Clone the repository.
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/RolaMAlghamdi/logistics-operations-dashboard-.git
+git clone [https://github.com/RolaMAlghamdi/logistics-operations-dashboard-.git](https://github.com/RolaMAlghamdi/logistics-operations-dashboard-.git)
 ```
 
 2. Open `logistics_analysis.ipynb` using Google Colab or Jupyter Notebook.
 
-3. Run all notebook cells.
+3. Execute all notebook cells to generate the analytics.
 
-4. Open `logistics_dashboard.html` in a web browser.
+4. Open `logistics_dashboard.html` in any web browser to interact with the dashboard locally.
 
 ---
 
 ## Course Information
 
-**Academy:** SDAIA Academy (Saudi Data & AI Authority)
-
-**Course:** Data Visualization & Storytelling (SDA-DSC-112)
+- **Organization:** [@SDAIAAcademy](https://github.com/SDAIAAcademy) (Saudi Data & AI Authority)
+- **Course Title:** Data Visualization & Storytelling
+- **Course Code:** SDA-DSC-112
 
 ---
 
@@ -159,7 +149,7 @@ Senior Industrial & Systems Engineering Student
 
 - Supply Chain Analytics
 - Logistics Operations
-- Data Visualization
+- Data Visualization & Storytelling
 - Business Intelligence
 - Process Improvement
 - Decision Support Systems
