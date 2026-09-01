@@ -27,7 +27,7 @@ This project was developed as the final practical deliverable for the **Data Vis
 
 The interactive dashboard is published and viewable live via GitHub Pages:
 
-**[Launch Live Interactive Dashboard](https://RolaMAlghamdi.github.io/logistics-operations-dashboard-/logistics_dashboard.html)**
+**[Launch Live Interactive Dashboard](https://roalamghamdi.github.io/logistics-operations-dashboard-/logistics_dashboard.html)**
 
 ---
 
@@ -110,7 +110,8 @@ The dataset includes 12 months of operational logistics data covering:
 
 ## Project Structure
 
-Saudi-Logistics-Operations-Dashboard/
+```text
+logistics-operations-dashboard-/
 │
 ├── logistics_analysis.ipynb
 ├── logistics_dashboard.html
@@ -118,6 +119,7 @@ Saudi-Logistics-Operations-Dashboard/
 ├── Dashboard.png
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
@@ -125,7 +127,9 @@ Saudi-Logistics-Operations-Dashboard/
 
 1. Clone the repository:
 
-   git clone https://github.com/RolaMAlghamdi/logistics-operations-dashboard-.git
+```bash
+git clone [https://github.com/RolaMAlghamdi/logistics-operations-dashboard-.git](https://github.com/RolaMAlghamdi/logistics-operations-dashboard-.git)
+```
 
 2. Open `logistics_analysis.ipynb` using Google Colab or Jupyter Notebook.
 
