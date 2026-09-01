@@ -9,7 +9,6 @@ This project was developed as a final practical deliverable for the **Data Visua
 
 ## Key Outputs & Deliverables
 
-## Key Outputs & Deliverables
 
 1. **Interactive Executive Dashboard (`logistics_dashboard.html`)**
    - Built using Python and Plotly with interactive filtering and hover stats.
