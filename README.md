@@ -23,12 +23,6 @@ This project was developed as the final practical deliverable for the **Data Vis
 
 ---
 
-## Live Dashboard
-
-**[View Dashboard](https://roalamghamdi.github.io/logistics-operations-dashboard-/logistics_dashboard.html)**
-
----
-
 ## Key Outputs & Deliverables
 
 ### Interactive Executive Dashboard (`logistics_dashboard.html`)
