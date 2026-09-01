@@ -143,8 +143,7 @@ git clone https://github.com/RolaMAlghamdi/logistics-operations-dashboard-.git
 
 ## Course Information
 
-**Academy:** [SDAIA Academy](https://sdaia.gov.sa/)  
-**Organization:** Saudi Data & AI Authority (SDAIA)
+**Academy:** SDAIA Academy (Saudi Data & AI Authority)
 
 **Course:** Data Visualization & Storytelling (SDA-DSC-112)
 
